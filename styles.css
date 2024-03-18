@@ -1,0 +1,165 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #EEE7DF;
+    --secundario: #DBCBBE;
+    --terciario: #ABDED7;
+    --obscuro: #4D8581;
+    
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; 
+    scroll-snap-type: y mandatory;
+}
+
+/* Apartado inicio */
+.titulo{
+    margin: 70px 0;
+    text-align: center;
+    font-size: 25px;
+    color: var(--obscuro);
+    font-weight: 500;
+}
+
+.linea{
+    width: 100%;
+    background-color: var(--terciario);
+    padding: 3rem;
+}
+
+/* Apartado presentacion */
+.contenedor-img, .img-inicio{
+    max-width: 800px;
+    width: 500px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 150px auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+.presentacion-nombre{
+    font-size: 45px;
+    color: var(--obscuro);
+    font-weight: 700;
+}
+
+.presentacion-logro{
+    font-size: 33px;
+    color: var(--secundario);
+    font-weight: 700;
+}
+
+.presentacion-descripcion{
+    font-size: 25px;
+    color: var(--negro);
+    text-align: justify;
+    
+}
+
+
+/* Descripcion curso */
+.contenedor-descripcion{
+    padding-right: 20px;
+}
+
+.curso-enfoque{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.curso-puntos{
+    font-size: 25px;
+    color: var(--negro);
+    text-align: justify;
+}
+
+.curso-nombre{
+    text-align: center;
+    font-size: 35px;
+    color: var(--obscuro);
+    font-weight: 700;
+}
+
+.curso-titulo{
+    margin: 25px 0;
+}
+
+/* Formulario */
+.formulario{
+    margin: 200px auto;
+    max-width: 1000px;
+    width: 30%;
+}
+
+.formulario fieldset {
+    border: none;
+    margin-top: 10px;
+}
+
+.titulo-formulario{
+    font-size: 40px;
+    color: var(--obscuro);
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: var(--secundario);
+    max-width: 1200px;
+    width: 90%;
+}
+
+
+.campos input{
+    margin-bottom: 50px;
+    padding: 15px;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+
+.campos label{
+    font-size: 20px;
+    color: var(--obscuro);
+    font-weight: 700;
+}
+
+
+.boton-formulario {
+    background-color: var(--terciario);
+    color: var(--obscuro);
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    border: none;   
+}
+
+.boton-formulario:hover{
+    background-color: var(--secundario);
+    color: var(--obscuro);
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
